@@ -64,8 +64,7 @@ class AppTextStyles {
         letterSpacing: 3.0,
       );
 
-  static TextStyle counter(BuildContext context) =>
-      GoogleFonts.playfairDisplay(
+  static TextStyle counter(BuildContext context) => GoogleFonts.playfairDisplay(
         fontSize: Responsive.scale(context, 32),
         fontWeight: FontWeight.w700,
         color: AppColors.textPrimary,
@@ -106,18 +105,16 @@ class AppTextStyles {
         color: AppColors.textPrimary,
       );
 
-  static TextStyle appBarSubtitle(BuildContext context) =>
-      GoogleFonts.rajdhani(
+  static TextStyle appBarSubtitle(BuildContext context) => GoogleFonts.rajdhani(
         fontSize: Responsive.scale(context, 11),
         fontWeight: FontWeight.w600,
         color: AppColors.gold,
         letterSpacing: 3.5,
       );
 
-  static TextStyle arabic(BuildContext context, double circleSize) =>
-      TextStyle(
+  static TextStyle arabic(BuildContext context, double circleSize) => TextStyle(
         fontFamily: 'Amiri',
-        fontSize: circleSize * 0.18,
+        fontSize: circleSize * 0.16,
         color: AppColors.gold,
         height: 1.5,
       );

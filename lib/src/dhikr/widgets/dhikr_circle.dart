@@ -164,7 +164,7 @@ class _DhikrCircleState extends State<DhikrCircle>
                         textAlign: TextAlign.center,
                       ),
                     ),
-                    SizedBox(height: circleSize * 0.04),
+                    SizedBox(height: circleSize * 0.03),
 
                     // Counter number
                     AnimatedSwitcher(
